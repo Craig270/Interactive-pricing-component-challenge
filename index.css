@@ -1,1 +1,42 @@
-/* No CSS *//*# sourceMappingURL=index.css.map */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+  grid-template-columns: auto;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  place-items: center;
+  background-image: url("/images/bg-pattern.svg");
+  background-repeat: repeat-x;
+  background-size: 100%;
+  background-color: #f9faff;
+  font-family: "Manrope", sans-serif;
+  text-align: center;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #d27014;
+}
+
+.mainImg {
+  width: 326px;
+  height: 81;
+  background-color: red;
+  background-image: url("/images/pattern-circles.svg");
+  background-repeat: no-repeat;
+  text-align: center;
+  background-size: 100%;
+}
+
+.mainImg h1 {
+  font-size: large;
+}
+/*# sourceMappingURL=index.css.map */
